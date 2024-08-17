@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    dorian-each (0.0.1)
+    dorian-yaml-deep-map (0.0.1)
 
 GEM
   remote: https://rubygems.org/
@@ -95,8 +95,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  dorian-each!
   dorian-times
+  dorian-yaml-deep-map!
   rspec
   rubocop-rails-omakase
 
