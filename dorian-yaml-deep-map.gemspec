@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = "dorian-yaml-deep-map"
-  s.version = "0.0.2"
+  s.version = File.read("VERSION").strip
   s.summary = "maps yaml to yaml deeply with ruby code"
   s.description = s.summary
   s.authors = ["Dorian Marié"]
