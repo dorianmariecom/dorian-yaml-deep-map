@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    dorian-yaml-deep-map (0.0.2)
+    dorian-yaml-deep-map (0.0.3)
       dorian-arguments
       dorian-to_struct
       yaml
