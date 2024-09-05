@@ -15,5 +15,5 @@ Gem::Specification.new do |s|
   s.add_dependency "dorian-arguments"
   s.add_dependency "dorian-to_struct"
   s.add_dependency "yaml"
-  s.required_ruby_version = "3.3.4"
+  s.required_ruby_version = ">= 3"
 end
