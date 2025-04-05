@@ -4,11 +4,11 @@
 require "dorian/arguments"
 require "yaml"
 
-def deep_map(json, &block)
+def deep_map(json, &)
   if json.is_a?(Hash)
-    yield(json).to_h { |key, value| deep_map([key, value], &block) }
+    yield(json).to_h { |key, value| deep_map([key, value], &) }
   elsif json.is_a?(Array)
-    yield(json).map { |element| deep_map(element, &block) }
+    yield(json).map { |element| deep_map(element, &) }
   else
     yield(json)
   end
